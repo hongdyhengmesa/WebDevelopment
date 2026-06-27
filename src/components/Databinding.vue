@@ -1,10 +1,32 @@
 <template>
-    <h1>{{ price * quantity }}</h1>
-    <h2>{{ name.toUpperCase() }}</h2>
+    <!-- Complex logic -->
+    <h1>Total: {{ multi() }}</h1>
+    <h1>Total: {{ sum() }}</h1>
+    <h1>Total: {{ minus() }}</h1>
+    <h1>Total: {{ divide() }}</h1>
+    <h1>Total: {{ remain() }}</h1>
 </template>
 
 <script setup>
-    const price = 109;
-    const quantity = 5;
-    const name = "The Cambodia!!!";
+
+    function multi(){
+        return 900 * 4;
+    }
+
+    function sum(){
+        return 100 + 30;
+    }
+
+    function minus(){
+        return 190 - 10;
+    }
+
+    function divide(){
+        return 890 / 2;
+    }
+
+    function remain(){
+        return 81 % 2;
+    }
+
 </script>
