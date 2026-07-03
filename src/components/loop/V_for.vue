@@ -3,6 +3,8 @@
     <h6 v-for="number in numbers" :key="number">{{ number }}</h6>
     <h3 v-for="student in students" :key="student">{{ student }}</h3>
     <h5 v-for="langauge in langauges" :key="langauge">{{ langauge }}</h5>
+    <!-- for this used with index -->
+    <h4 v-for="(car, index) in cars" :key="index">{{ index }} - {{ car }}</h4>
 </template>
 
 <script setup>
@@ -34,6 +36,12 @@
         "Css",
         "VueJs",
         "NestJs"
+    ]
+
+    const cars = [
+        "Lambogini",
+        "Ferraries",
+        "RolRoy"
     ]
 
 </script>
