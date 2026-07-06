@@ -1,15 +1,10 @@
 <template>
   <div class="container">
-    <!-- <Ex1/> -->
-    <Practice1/>
-    <Practice2/>
-    <Practice3/>
+    <Ex4_Fillter/>
   </div>
 </template>
 
 <script setup>
-  import Ex1 from "./components/v-model/Ex1.vue";
-  import Practice1 from "./components/v-model/Practice1.vue";
-  import Practice2 from "./components/v-model/Practice2.vue";
-  import Practice3 from "./components/v-model/Practice3.vue";
+  
+  import Ex4_Fillter from "./components/computed/Ex4_Fillter.vue";
 </script>
