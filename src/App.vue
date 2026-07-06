@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <Ex1/>
-    <Ex2/>
-    <Ex3/>
+    <!-- <Ex1/> -->
+    <Practice1/>
+    <Practice2/>
   </div>
 </template>
 
 <script setup>
-  import Ex1 from "./components/events/Ex1.vue";
-  import Ex2 from "./components/events/Ex2.vue";
-  import Ex3 from "./components/events/Ex3.vue";
+  import Ex1 from "./components/v-model/Ex1.vue";
+  import Practice1 from "./components/v-model/Practice1.vue";
+  import Practice2 from "./components/v-model/Practice2.vue";
 </script>
