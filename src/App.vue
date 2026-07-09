@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <UserProfile_Parent/>
-    <ProductCard_Parent/>
-    <StudentCard_Parent/>
+      <EmpParent/>
+      <BookParent/>
+      <CarParent/>
   </div>
 </template>
 
 <script setup>
-  import UserProfile_Parent from "./components/props/UserProfile_Parent.vue";
-  import ProductCard_Parent from "./components/props/ProductCard_Parent.vue";
-  import StudentCard_Parent from "./components/props/StudentCard_Parent.vue";
+    import EmpParent from "./components/props/EmpParent.vue";
+    import BookParent from "./components/props/BookParent.vue";
+    import CarParent from "./components/props/CarParent.vue";
 </script>
