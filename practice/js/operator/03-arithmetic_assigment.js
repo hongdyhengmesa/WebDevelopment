@@ -25,3 +25,10 @@ let taxDivi = 10;
 
 totalDivi /= taxDivi;
 console.log(totalDivi)
+
+// 5.Calculate for Remainder
+let totalRemain = 100;
+let taxRemain = 3;
+
+totalRemain %= taxRemain;
+console.log(totalRemain);
