@@ -40,3 +40,26 @@ const myArrB = ["D", "E", "F"];
 
 const newMyArr = myArrA.concat(myArrB); // concat combine together.
 console.log(newMyArr)
+
+// Nested array
+const equipShelfA = ["baseball", "football", "volleyball"];
+const equipShelfB = ["basketball", "golf balls", "tennis balls"];
+
+const clothesShelfA = ["tank tops", "t-shirts", "jerseys"];
+const clothesShelfB = ["sweat tops", "sweat pants", "hoodies"];
+
+// 1D array
+console.log(equipShelfA[1]);
+console.log(clothesShelfB[0]);
+
+// 2D array
+const equipDept = [equipShelfA, equipShelfB];
+const clothesDept = [clothesShelfA, clothesShelfB];
+
+console.log(equipDept[0][1]);
+console.log(clothesDept[0][1]);
+
+// 3D array
+const sportsStore = [equipDept, clothesDept]
+console.log(sportsStore[0][0][1])
+console.log(sportsStore[1][1][0])
